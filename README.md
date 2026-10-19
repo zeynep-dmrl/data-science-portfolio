@@ -8,14 +8,14 @@ Bu repo, Data Scientist yol haritamda yaptığım projeleri bir araya getiriyor.
 
 | # | Proje | Soru | Öne çıkan sonuç | Rapor |
 |---|---|---|---|---|
-| 1 | E-ticaret SQL analizi | Gelir nereden geliyor, müşteriyi nerede kaybediyoruz? | Sepete ekleyenlerin %58'i satın almıyor. 2025 geliri 2024'e göre %42 arttı. | [PDF](eticaret-veri-analizi-case-study.pdf) |
-| 2 | dbt veri ambarı | Aynı iş kuralını her sorguda yeniden yazmadan tutarlı rapor nasıl üretilir? | 4 model, 13 veri kalitesi testi, `dbt build`: 17/17 başarılı | [PDF](dbt-veri-ambari-proje-raporu.pdf) |
+| 1 | E-ticaret SQL analizi | Gelir nereden geliyor, müşteriyi nerede kaybediyoruz? | Sepete ekleyenlerin %58'i satın almıyor. 2025 geliri 2024'e göre %42 arttı. | [PDF](eticaret-data-analysis-case-study.pdf) |
+| 2 | dbt veri ambarı | Aynı iş kuralını her sorguda yeniden yazmadan tutarlı rapor nasıl üretilir? | 4 model, 13 veri kalitesi testi, `dbt build`: 17/17 başarılı | [PDF](dbt-data-warehouse-project-report.pdf) |
 | 3 | Kategori analizi (Python) | Hangi kategoriler hacimle, hangileri fiyatla kazandırıyor? | Outerwear & Coats ve Jeans hem çok satıyor hem pahalı. Intimates en çok satan ama gelirde 10. sırada. | [Notebook](analysis.ipynb) |
 | 4 | A/B testi: Cookie Cats | Oyundaki kapı 30. seviyeden 40. seviyeye taşınmalı mı? | Hayır. 7. gün retention %19,02'den %18,20'ye düşüyor (p = 0,0016). | [PDF](ab-testi-cookie-cats-raporu.pdf) |
 | 5 | API veri hattı | Dış bir kaynaktan veri nasıl otomatik olarak ambara alınır? | Open-Meteo API'sinden 731 günlük İstanbul hava verisi BigQuery'ye yüklendi | [Notebook](weather_api_pipeline.ipynb) |
 | 6 | Churn tahmini | Hangi müşteri bizi bırakacak? | Gerçek veride ROC AUC **0,84**. Sentetik veride sinyal olmadığı tespit edildi. | [PDF](churn-tahmini-raporu.pdf) |
 
-2, 3, 4 ve 5. projelerin tamamı için ayrıca bir özet rapor var: [Modül 2 proje raporu](modul-2-proje-raporu.pdf).
+2, 3, 4 ve 5. projelerin tamamı için ayrıca bir özet rapor var: [Modül 2 proje raporu](project-report.pdf).
 
 ---
 
